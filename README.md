@@ -134,6 +134,9 @@ The repository contains several visualizations generated during the analysis.
 
 ![Drive-Wheel Angular Velocity vs Robot Pitch](results/Drive-Wheel%20Augular%20Velocity%20vs%20Robot%20Pitch.png)
 
+### Linear Regression Augluar velocity vs Pitch 
+![Linear Regression Velocity vs Pitch](results/Linear_Regression_Augular_Velocity_vs_Pitch.png)
+
 ### Actual vs Predicted Pitch
 
 ![Actual vs Predicted Pitch](results/actual_vs_prediction.png)
