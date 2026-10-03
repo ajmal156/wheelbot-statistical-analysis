@@ -2,6 +2,9 @@
 
 A simple statistical analysis project using the Mini Wheelbot Dataset to investigate the relationship between drive-wheel angular velocity and robot pitch angle.
 
+![Uploading image.png…]()
+
+
 ## Project Overview
 
 This project applies statistical analysis and machine learning techniques to real robotic sensor data collected from a self-balancing Mini Wheelbot.
