@@ -1,0 +1,14 @@
+MINI WHEELBOT STATISTICAL ANALYSIS
+Drive-Wheel Angular Velocity vs Robot Pitch
+
+Dataset rows: 14814
+Clean rows: 14814
+Training samples: 11851
+Testing samples: 2963
+
+Correlation: 0.394541
+Coefficient: 0.020612
+Intercept: -0.033062
+R2: -7.676471
+MAE: 0.068338
+RMSE: 0.072651
