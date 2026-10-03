@@ -128,25 +128,34 @@ results/model_results.txt
 
 ## 📊 Visualizations
 
-The following figures were generated during the statistical analysis.
+The following figures were generated during the statistical analysis to examine the relationship between drive-wheel angular velocity and robot pitch, evaluate regression predictions, and inspect residual behavior.
 
-### Drive-Wheel Angular Velocity vs Robot Pitch
+### 1. Drive-Wheel Angular Velocity vs Robot Pitch
 
-![Drive-Wheel Angular Velocity vs Robot Pitch](results/Drive-Wheel%20Angular%20Velocity%20vs%20Robot%20Pitch.png)
+<p align="center">
+  <img src="results/Drive-Wheel%20Angular%20Velocity%20vs%20Robot%20Pitch.png" width="850" alt="Drive-Wheel Angular Velocity vs Robot Pitch">
+</p>
 
-### Linear Regression: Angular Velocity vs Pitch
+### 2. Linear Regression: Angular Velocity vs Pitch
 
-![Linear Regression: Angular Velocity vs Pitch](results/Linear%20Regression%20Angular%20Velocity%20vs%20Pitch.png)
+<p align="center">
+  <img src="results/Linear%20Regression%20Angular%20Velocity%20vs%20Pitch.png" width="850" alt="Linear Regression: Angular Velocity vs Pitch">
+</p>
 
-### Actual vs Predicted Robot Pitch
+### 3. Actual vs Predicted Robot Pitch
 
-![Actual vs Predicted Robot Pitch](results/Actual_vs_Predicted_Robot_Pitch.png)
+<p align="center">
+  <img src="results/Actual_vs_Predicted_Robot_Pitch.png" width="850" alt="Actual vs Predicted Robot Pitch">
+</p>
 
-### Residual Analysis
+### 4. Residual Analysis
 
-![Residual Plot](results/Residual%20Plot.png)
+<p align="center">
+  <img src="results/Residual%20Plot.png" width="850" alt="Residual Plot">
+</p>
 
-These visualizations are used to examine the relationship between drive-wheel angular velocity and robot pitch, evaluate model predictions, and inspect residual behavior.
+These visualizations provide graphical evidence for the exploratory analysis, regression model behavior, prediction performance, and residual analysis.
+
 
 ---
 
