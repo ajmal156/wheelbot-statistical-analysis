@@ -2,7 +2,8 @@
 
 A simple statistical analysis project using the Mini Wheelbot Dataset to investigate the relationship between drive-wheel angular velocity and robot pitch angle.
 
-![Uploading image.png…]()
+<img width="1875" height="1327" alt="image" src="https://github.com/user-attachments/assets/7c8f3992-eb6a-4d29-b406-ae79f0ebd659" />
+
 
 
 ## Project Overview
