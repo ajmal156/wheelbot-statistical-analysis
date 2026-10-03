@@ -1,7 +1,6 @@
-# ============================================================
-# MINI WHEELBOT STATISTICAL ANALYSIS
-# Drive-Wheel Angular Velocity vs Robot Pitch
-# ============================================================
+"""# MINI WHEELBOT STATISTICAL ANALYSIS
+# Drive-Wheel Angular Velocity vs Robot Pitch """ 
+
 
 import os
 import numpy as np
@@ -67,9 +66,9 @@ print("=" * 60)
 print(df.describe())
 
 
-# ============================================================
+
 # 6. MISSING VALUES
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[4] DATA QUALITY CHECK")
@@ -86,18 +85,18 @@ print(
 )
 
 
-# ============================================================
+
 # 7. DUPLICATES
-# ============================================================
+
 
 duplicate_count = df.duplicated().sum()
 
 print("\nDuplicate rows:", duplicate_count)
 
 
-# ============================================================
+
 # 8. SELECT PROJECT VARIABLES
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[5] SELECT PROJECT VARIABLES")
@@ -109,9 +108,9 @@ print("Y:", pitch_column)
 analysis_df = df[[velocity_column, pitch_column]].copy()
 
 
-# ============================================================
+
 # 9. DATA CLEANING
-# ============================================================
+
 
 rows_before = len(analysis_df)
 
@@ -124,18 +123,18 @@ print("Rows after cleaning :", rows_after)
 print("Rows removed        :", rows_before - rows_after)
 
 
-# ============================================================
+
 # 10. CREATE X AND Y
-# ============================================================
+
 
 X = analysis_df[[velocity_column]]
 
 y = analysis_df[pitch_column]
 
 
-# ============================================================
+
 # 11. DESCRIPTIVE STATISTICS
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[6] PROJECT VARIABLE STATISTICS")
@@ -148,9 +147,9 @@ print("\nRobot pitch:")
 print(y.describe())
 
 
-# ============================================================
+
 # 12. CORRELATION
-# ============================================================
+
 
 correlation = X[velocity_column].corr(y)
 
@@ -161,9 +160,9 @@ print("=" * 60)
 print(f"Correlation coefficient: {correlation:.6f}")
 
 
-# ============================================================
+
 # 13. TRAIN / TEST SPLIT
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[8] TRAIN / TEST SPLIT")
@@ -181,9 +180,9 @@ print("Training samples:", len(X_train))
 print("Testing samples :", len(X_test))
 
 
-# ============================================================
+
 # 14. CREATE AND TRAIN MODEL
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[9] SIMPLE LINEAR REGRESSION")
@@ -207,9 +206,9 @@ print("\nRegression Equation:")
 print(f"Pitch = {intercept:.6f} + "f"({coefficient:.6f} × Drive-Wheel Angular Velocity)")
 
 
-# ============================================================
+
 # 15. PREDICTIONS
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[10] PREDICTIONS")
@@ -228,9 +227,9 @@ print(
 )
 
 
-# ============================================================
+
 # 16. MODEL EVALUATION
-# ============================================================
+
 
 print("\n" + "=" * 60)
 print("[11] MODEL EVALUATION")
@@ -258,9 +257,9 @@ print(f"MAE  : {mae:.6f}")
 print(f"RMSE : {rmse:.6f}")
 
 
-# ============================================================
+
 # 17. SAVE MODEL RESULTS
-# ============================================================
+
 
 results = pd.DataFrame({
     "Metric": [
@@ -293,9 +292,9 @@ results.to_csv(
 )
 
 
-# ============================================================
+
 # 18. SAVE PREDICTIONS
-# ============================================================
+
 
 prediction_file = os.path.join(
     RESULTS_DIR,
@@ -308,9 +307,7 @@ prediction_results.to_csv(
 )
 
 
-# ============================================================
 # 19. SAVE METRICS REPORT
-# ============================================================
 
 metrics_file = os.path.join(
     RESULTS_DIR,
@@ -321,60 +318,46 @@ with open(
     metrics_file,
     "w",
     encoding="utf-8"
-) as file:
+    ) as file:
 
     file.write(
-        "MINI WHEELBOT STATISTICAL ANALYSIS\n"
-    )
+        "MINI WHEELBOT STATISTICAL ANALYSIS\n")
 
     file.write(
-        "Drive-Wheel Angular Velocity vs Robot Pitch\n\n"
-    )
+        "Drive-Wheel Angular Velocity vs Robot Pitch\n\n")
 
     file.write(
-        f"Dataset rows: {len(df)}\n"
-    )
+        f"Dataset rows: {len(df)}\n")
 
     file.write(
-        f"Clean rows: {len(analysis_df)}\n"
-    )
+        f"Clean rows: {len(analysis_df)}\n")
 
     file.write(
-        f"Training samples: {len(X_train)}\n"
-    )
+        f"Training samples: {len(X_train)}\n")
 
     file.write(
-        f"Testing samples: {len(X_test)}\n\n"
-    )
+        f"Testing samples: {len(X_test)}\n\n")
 
     file.write(
-        f"Correlation: {correlation:.6f}\n"
-    )
+        f"Correlation: {correlation:.6f}\n")
 
     file.write(
-        f"Coefficient: {coefficient:.6f}\n"
-    )
+        f"Coefficient: {coefficient:.6f}\n")
 
     file.write(
-        f"Intercept: {intercept:.6f}\n"
-    )
+        f"Intercept: {intercept:.6f}\n")
 
     file.write(
-        f"R2: {r2:.6f}\n"
-    )
+        f"R2: {r2:.6f}\n")
 
     file.write(
-        f"MAE: {mae:.6f}\n"
-    )
+        f"MAE: {mae:.6f}\n")
 
     file.write(
-        f"RMSE: {rmse:.6f}\n"
-    )
+        f"RMSE: {rmse:.6f}\n")
 
 
-# ============================================================
 # 20. FINAL MESSAGE
-# ============================================================
 
 print("\n" + "=" * 60)
 print("ANALYSIS COMPLETED")
