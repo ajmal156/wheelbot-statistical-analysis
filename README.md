@@ -128,24 +128,25 @@ results/model_results.txt
 
 ## 📊 Visualizations
 
-The repository contains several visualizations generated during the analysis.
+The following figures were generated during the statistical analysis.
 
 ### Drive-Wheel Angular Velocity vs Robot Pitch
 
-![Drive-Wheel Angular Velocity vs Robot Pitch](results/Drive-Wheel%20Augular%20Velocity%20vs%20Robot%20Pitch.png)
+![Drive-Wheel Angular Velocity vs Robot Pitch](results/Drive-Wheel%20Angular%20Velocity%20vs%20Robot%20Pitch.png)
 
-### Linear Regression Augluar velocity vs Pitch 
-![Linear Regression Velocity vs Pitch](results/Linear_Regression_Augular_Velocity_vs_Pitch.png)
+### Linear Regression: Angular Velocity vs Pitch
 
-### Actual vs Predicted Pitch
+![Linear Regression: Angular Velocity vs Pitch](results/Linear%20Regression%20Angular%20Velocity%20vs%20Pitch.png)
 
-![Actual vs Predicted Pitch](results/actual_vs_prediction.png)
+### Actual vs Predicted Robot Pitch
+
+![Actual vs Predicted Robot Pitch](results/Actual_vs_Predicted_Robot_Pitch.png)
 
 ### Residual Analysis
 
-![Residual Plot](results/residual_plot.png)
+![Residual Plot](results/Residual%20Plot.png)
 
-These visualizations help examine the relationship between the variables and the behavior of the regression model.
+These visualizations are used to examine the relationship between drive-wheel angular velocity and robot pitch, evaluate model predictions, and inspect residual behavior.
 
 ---
 
