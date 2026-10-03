@@ -133,25 +133,25 @@ The following figures were generated during the statistical analysis to examine 
 ### 1. Drive-Wheel Angular Velocity vs Robot Pitch
 
 <p align="center">
-  <img src="results/Drive-Wheel%20Angular%20Velocity%20vs%20Robot%20Pitch.png" width="850" alt="Drive-Wheel Angular Velocity vs Robot Pitch">
+  <img src="results/Drive-Wheel%20Angular%20Velocity%20vs%20Robot%20Pitch.png" width="600" alt="Drive-Wheel Angular Velocity vs Robot Pitch">
 </p>
 
 ### 2. Linear Regression: Angular Velocity vs Pitch
 
 <p align="center">
-  <img src="results/Linear%20Regression%20Angular%20Velocity%20vs%20Pitch.png" width="850" alt="Linear Regression: Angular Velocity vs Pitch">
+  <img src="results/Linear%20Regression%20Angular%20Velocity%20vs%20Pitch.png" width="600" alt="Linear Regression: Angular Velocity vs Pitch">
 </p>
 
 ### 3. Actual vs Predicted Robot Pitch
 
 <p align="center">
-  <img src="results/Actual_vs_Predicted_Robot_Pitch.png" width="850" alt="Actual vs Predicted Robot Pitch">
+  <img src="results/Actual_vs_Predicted_Robot_Pitch.png" width="600" alt="Actual vs Predicted Robot Pitch">
 </p>
 
 ### 4. Residual Analysis
 
 <p align="center">
-  <img src="results/Residual%20Plot.png" width="850" alt="Residual Plot">
+  <img src="results/Residual%20Plot.png" width="600" alt="Residual Plot">
 </p>
 
 These visualizations provide graphical evidence for the exploratory analysis, regression model behavior, prediction performance, and residual analysis.
