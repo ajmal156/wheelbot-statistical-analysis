@@ -37,7 +37,7 @@ The analysis focuses on understanding the statistical relationship between these
 
 ---
 
-## 📐 Statistical Model
+##  Statistical Model
 
 The primary statistical model is **Simple Linear Regression**:
 
@@ -59,7 +59,7 @@ The model is used to:
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 The project follows this workflow:
 
