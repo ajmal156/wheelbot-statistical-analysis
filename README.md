@@ -6,7 +6,7 @@ A statistical analysis project using the **Mini Wheelbot Dataset** to investigat
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes real robotic sensor data collected from the **Mini Wheelbot**, a self-balancing robotic platform.
 
@@ -16,7 +16,7 @@ The project demonstrates a complete beginner-friendly workflow for analyzing rob
 
 ---
 
-## 🎯 Research Question
+##  Research Question
 
 > **Is drive-wheel angular velocity statistically associated with robot pitch angle?**
 
@@ -24,7 +24,7 @@ This question is investigated using **Simple Linear Regression**.
 
 ---
 
-## 📊 Variables
+##  Variables
 
 The analysis uses two variables from the Mini Wheelbot Dataset:
 
@@ -98,7 +98,7 @@ Interpretation
 
 ---
 
-## 📈 Results
+##  Results
 
 The analysis produced a Simple Linear Regression model using:
 
@@ -126,7 +126,7 @@ results/model_results.txt
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 The following figures were generated during the statistical analysis to examine the relationship between drive-wheel angular velocity and robot pitch, evaluate regression predictions, and inspect residual behavior.
 
@@ -159,7 +159,7 @@ These visualizations provide graphical evidence for the exploratory analysis, re
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```text
 wheelbot-statistical-analysis/
@@ -193,7 +193,7 @@ wheelbot-statistical-analysis/
 
 ---
 
-## 💾 Dataset
+##  Dataset
 
 This project uses the **Mini Wheelbot Dataset**.
 
@@ -214,7 +214,7 @@ Please refer to the original dataset repository for:
 
 ---
 
-## 👨‍💻 My Contribution
+##  My Contribution
 
 My contribution to this project includes:
 
@@ -234,7 +234,7 @@ The **Mini Wheelbot Dataset itself was created by its original authors**. This r
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 * **Python**
 * **Pandas**
@@ -300,7 +300,7 @@ notebook/wheelbot_analysis.ipynb
 
 ---
 
-## 📚 Learning Objectives
+##  Learning Objectives
 
 This project is part of my learning journey in **Robotics and Intelligent Systems**.
 
@@ -319,13 +319,13 @@ Through this project, I am developing practical skills in:
 
 ---
 
-## 🔗 Related Work
+##  Related Work
 
 This project is based on publicly available Mini Wheelbot data and is intended as an educational and portfolio project for learning statistical analysis of robotic systems.
 
 ---
 
-## 📖 Citation
+##  Citation
 
 Information about the original Mini Wheelbot Dataset and its associated publications is provided in:
 
